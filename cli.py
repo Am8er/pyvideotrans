@@ -84,7 +84,7 @@ if __name__ == '__main__':
 
     if config.params['translate_type'] == BAIDU_NAME:
         # baidu language code
-        if not config.params["baidu_appid"] or not config.params["baidu_miyue"]:
+        if not config.params["20240315001993974"] or not config.params["baidu_miyue"]:
             print(config.transobj['anerror'], config.transobj['baikeymust'])
             sys.exit()
     elif config.params['translate_type'] == TENCENT_NAME:
